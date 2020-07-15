@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fongame"
+    tools:context=".Regictration">
+
+    <FrameLayout
+        android:layout_width="316dp"
+        android:layout_height="509dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="93dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            style="@style/strings"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/strings"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="Имя:" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                style="@style/strings"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColorHighlight="#00000000"
+                android:textColorLink="@android:color/background_dark"
+                android:textCursorDrawable="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/strings"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="Пароль:" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                style="@style/strings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorLink="@android:color/background_dark"
+                android:textCursorDrawable="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/strings"
+                android:layout_width="101dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ok"
+                android:onClick="onClick"
+                android:text="Играть" />
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

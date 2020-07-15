@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@drawable/message_fon"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Player1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Login1"
+                style="@style/strings"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="Player2" />
+
+            <TextView
+                android:id="@+id/Skill1"
+                style="@style/strings"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="мастер" />
+
+            <TextView
+                android:id="@+id/Count1"
+                style="@style/strings"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Player2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Login2"
+                style="@style/strings"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="Player1" />
+
+            <TextView
+                android:id="@+id/Skill2"
+                style="@style/strings"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="новичок" />
+
+            <TextView
+                android:id="@+id/Count2"
+                style="@style/strings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Player3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Login3"
+                style="@style/strings"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="Player3" />
+
+            <TextView
+                android:id="@+id/Skill3"
+                style="@style/strings"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="новичок" />
+
+            <TextView
+                android:id="@+id/Count3"
+                style="@style/strings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/fon"
+                android:gravity="center"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Ok"
+                style="@style/strings"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ok"
+                android:text="Ok" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

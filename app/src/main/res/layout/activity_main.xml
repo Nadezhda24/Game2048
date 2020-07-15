@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Const"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/R"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fongame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="20dp"
+                    android:layout_height="317dp">
+
+                    <ImageView
+                        android:id="@+id/imageView00"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView01"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView02"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView03"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView04"
+                        android:onClick="OnClick"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="20dp"
+                    android:layout_height="317dp">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:onClick="OnClick"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="20dp"
+                    android:layout_height="317dp">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:onClick="OnClick"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="20dp"
+                    android:layout_height="317dp">
+
+                    <ImageView
+                        android:id="@+id/imageView30"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView31"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView32"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView33"
+                        android:onClick="OnClick"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView34"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="20dp"
+                    android:layout_height="317dp">
+
+                    <ImageView
+                        android:id="@+id/imageView40"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView41"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView42"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView43"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView44"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="345dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/UserName"
+                        style="@style/strings"
+                        android:layout_width="254dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/Skill"
+                        style="@style/strings"
+                        android:layout_width="254dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        style="@style/strings"
+                        android:layout_width="132dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Очки:" />
+
+                    <TextView
+                        android:id="@+id/Value"
+                        style="@style/strings"
+                        android:layout_width="132dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="272dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="600dp">
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ValueDown"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:onClick="OnClick"
+                    app:srcCompat="@drawable/down" />
+
+                <ImageView
+                    android:id="@+id/DeleteCell"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:onClick="OnClick"
+                    app:srcCompat="@drawable/delete" />
+
+                <ImageView
+                    android:id="@+id/LineValueUp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:onClick="OnClick"
+                    app:srcCompat="@drawable/up" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
